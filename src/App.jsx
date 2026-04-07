@@ -4,7 +4,6 @@ import Home from "./components/home/Home";
 import Navbar from "./components/navbar/navbar";
 import Skills from "./components/Skills/Skills";
 import Contact from "./components/contact/Contact";
-import About from "./components/about/About";
 import Projects from "./components/projects/Projects";
 import Footer from "./components/Footer/Footer";
 
@@ -17,25 +16,22 @@ function App() {
   const { ref: contactRef } = useInView({ threshold: 0.5 });
 
   return (
-    <div className="bg-[#171d32] w-full flex flex-col overflow-auto">
+    <div className="bg-[#171d32] w-full flex flex-col min-h-screen">
       <Navbar />
       <div className="pt-28 flex-grow">
-        <div ref={homeRef} id="home" className="py-20 flex items-center justify-center">
+        <div ref={homeRef} id="home" className=" flex items-center justify-center">
           <Home />
         </div>
-        <div ref={aboutRef} id="about" className="py-20 flex items-center justify-center">
-          <About />
-        </div>
-        <div ref={experienceRef} id="experience" className="py-20 flex items-center justify-center">
+        <div ref={experienceRef} id="experience" className=" flex items-center justify-center">
           <Experience />
         </div>
-        <div ref={skillsRef} id="skills" className="py-20 flex items-center justify-center">
+        <div ref={skillsRef} id="skills" className=" flex items-center justify-center">
           <Skills />
         </div>
-        <div ref={projectsRef} id="projects" className="py-20 flex items-center justify-center">
+        <div ref={projectsRef} id="projects" className=" flex items-center justify-center">
           <Projects />
         </div>
-        <div ref={contactRef} id="contact" className="py-20 flex items-center justify-center">
+        <div ref={contactRef} id="contact" className=" flex items-center justify-center">
           <Contact />
         </div>
       </div>

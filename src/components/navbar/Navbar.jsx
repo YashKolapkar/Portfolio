@@ -7,15 +7,12 @@ const Navbar = () => {
   const [showMenu,setShowMenu] = useState(true);  
   return (
     <nav className="fixed top-0 left-0 right-0 z-50 flex flex-wrap justify-between md:items-center bg-[#171d32]/95 px-10 py-4 text-white backdrop-blur-md md:px-20">
-      <span className="text-xl font-bold tracking-wide">PortFolio</span>
+      <span className="text-xl font-bold tracking-wide">Yash Kolapkar</span>
       <ul className={` ${menu ? "block":"hidden" } 
         mx-24 py-2 mt-4 font-semibold md:mt-0 bg-black px-2 rounded-xl bg-opacity-20 md:border-none
         text-center md:bg-transparent md:static md:mx-0 md:flex gap-6`}>
         <Link to="home" smooth={true} duration={500} offset={-80} onClick={() => openMenu(false)}>
           <li className="text-md transition-all duration-300 p-1 md:p-0 cursor-pointer">Home</li>
-        </Link>
-        <Link to="about" smooth={true} duration={500} offset={-80} onClick={() => openMenu(false)}>
-          <li className="text-md transition-all duration-300 p-1 md:p-0 cursor-pointer">About</li>
         </Link>
         <Link to="experience" smooth={true} duration={500} offset={-80} onClick={() => openMenu(false)}>
           <li className="text-md transition-all duration-300 p-1 md:p-0 cursor-pointer">Experience</li>

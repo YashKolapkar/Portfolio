@@ -22,14 +22,14 @@ const Skills = () => {
   return (
     <section
       id="Skills"
-      className="relative w-full overflow-hidden px-6 py-16 text-white md:px-10 md:py-20"
+      className="relative min-h-screen w-full overflow-hidden px-6 py-10 text-white md:px-10 md:py-12"
     >
       <div className="absolute left-0 bottom-0 h-64 w-64 rounded-full bg-cyan-500/10 blur-3xl" />
       <div className="absolute right-0 top-10 h-56 w-56 rounded-full bg-slate-500/10 blur-3xl" />
 
       <div className="relative mx-auto w-full max-w-[1440px] space-y-6">
         <div className="space-y-3">
-          <h1 className="text-3xl font-bold md:text-4xl">Skills</h1>
+          <h1 className="text-5xl font-bold leading-tight tracking-tight text-white md:text-6xl">Skills</h1>
           <p className="max-w-3xl text-sm text-slate-300 md:text-base">
             Tools and technologies I use daily to build responsive, accessible, and modern web applications.
           </p>
