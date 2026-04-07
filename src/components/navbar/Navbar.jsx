@@ -1,6 +1,6 @@
 import { RiMenu2Line,RiCloseLine } from '@remixicon/react';
 import React, { useState } from 'react'
-import {NavLink} from 'react-router-dom';
+import { Link } from 'react-scroll';
 
 const Navbar = () => {
   const [menu,openMenu] = useState(false);
@@ -11,12 +11,24 @@ const Navbar = () => {
       <ul className={` ${menu ? "block":"hidden" } 
         mx-24 py-2 mt-4 font-semibold md:mt-0 bg-black px-2 rounded-xl bg-opacity-20 md:border-none
         text-center md:bg-transparent md:static md:mx-0 md:flex gap-6`}>
-        <NavLink to="/"><li className="text-md transition-all duration-300 p-1 md:p-0">Home</li></NavLink>
-        <NavLink to="/about"><li className="text-md transition-all duration-300 p-1 md:p-0">About</li></NavLink>
-        <NavLink to="/experience"><li className="text-md transition-all duration-300 p-1 md:p-0">Experience</li></NavLink>
-        <NavLink to="/projects"><li className="text-md transition-all duration-300 p-1 md:p-0">Projects</li></NavLink>
-        <NavLink to="/contact"><li className="text-md transition-all duration-300 p-1 md:p-0">Contact</li></NavLink>
-      
+        <Link to="home" smooth={true} duration={500} offset={-80} onClick={() => openMenu(false)}>
+          <li className="text-md transition-all duration-300 p-1 md:p-0 cursor-pointer">Home</li>
+        </Link>
+        <Link to="about" smooth={true} duration={500} offset={-80} onClick={() => openMenu(false)}>
+          <li className="text-md transition-all duration-300 p-1 md:p-0 cursor-pointer">About</li>
+        </Link>
+        <Link to="experience" smooth={true} duration={500} offset={-80} onClick={() => openMenu(false)}>
+          <li className="text-md transition-all duration-300 p-1 md:p-0 cursor-pointer">Experience</li>
+        </Link>
+        <Link to="skills" smooth={true} duration={500} offset={-80} onClick={() => openMenu(false)}>
+          <li className="text-md transition-all duration-300 p-1 md:p-0 cursor-pointer">Skills</li>
+        </Link>
+        <Link to="projects" smooth={true} duration={500} offset={-80} onClick={() => openMenu(false)}>
+          <li className="text-md transition-all duration-300 p-1 md:p-0 cursor-pointer">Projects</li>
+        </Link>
+        <Link to="contact" smooth={true} duration={500} offset={-80} onClick={() => openMenu(false)}>
+          <li className="text-md transition-all duration-300 p-1 md:p-0 cursor-pointer">Contact</li>
+        </Link>
       </ul>
       {showMenu ? (
         <RiMenu2Line 

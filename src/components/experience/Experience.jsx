@@ -6,7 +6,7 @@ import { VscDebugBreakpointLogUnverified } from "react-icons/vsc";
 
 const Experience = () => {
   return (
-    <section className="relative w-full overflow-hidden px-6 py-16 text-white md:px-10 md:py-20">
+    <section className="relative w-full overflow-hidden px-6  text-white md:px-10 ">
       <div className="absolute left-0 top-0 h-56 w-56 rounded-full bg-cyan-500/10 blur-3xl" />
       <div className="absolute right-0 bottom-0 h-72 w-72 rounded-full bg-slate-500/10 blur-3xl" />
 
