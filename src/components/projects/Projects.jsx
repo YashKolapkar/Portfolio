@@ -44,8 +44,8 @@ const Projects = () => {
 
       <div className="relative mx-auto w-full max-w-[1440px] space-y-6">
         {/* Section Header */}
-        <div className="space-y-3">
-          <h1 className="text-5xl font-bold leading-tight tracking-tight text-white md:text-6xl">Projects</h1>
+        <div className="space-y-2">
+          <h1 className="text-4xl font-bold leading-tight tracking-tight text-white md:text-5xl">Projects</h1>
           <p className="max-w-3xl text-sm text-slate-300 md:text-base">
             A collection of projects I've worked on, showcasing my skills in full-stack development, 
             cloud technologies, and modern web applications.
@@ -60,9 +60,9 @@ const Projects = () => {
               className="group relative flex flex-col justify-between rounded-xl border border-white/10 bg-white/5 p-4 transition-all duration-300 hover:border-cyan-500/30 hover:bg-white/10 hover:shadow-lg hover:shadow-cyan-500/10"
             >
               {/* Project Content */}
-              <div className="space-y-4">
+              <div className="space-y-2">
                 {/* Project Name */}
-                <h2 className="text-xl font-semibold text-white md:text-2xl group-hover:text-cyan-400 transition-colors">
+                <h2 className="text-lg font-semibold text-white md:text-xl group-hover:text-cyan-400 transition-colors">
                   {project.name}
                 </h2>
                 
@@ -89,7 +89,7 @@ const Projects = () => {
                 href={project.github}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="mt-6 inline-flex items-center gap-2 text-sm font-medium text-slate-300 transition-all duration-300 hover:text-white group-hover:translate-x-1"
+                className="mt-3 inline-flex items-center gap-2 text-sm font-medium text-slate-300 transition-all duration-300 hover:text-white group-hover:translate-x-1"
               >
                 <FaGithub className="text-lg" />
                 <span>View on GitHub</span>

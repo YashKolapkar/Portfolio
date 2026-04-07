@@ -9,15 +9,15 @@ const Home = () => {
       <div className="relative mx-auto flex w-full max-w-[1440px] flex-col gap-16 lg:flex-row lg:items-center lg:justify-between">
         <div className="space-y-8 lg:w-[55%]">
           <div className="space-y-4">
-            <p className="text-sm uppercase tracking-[0.3em] text-cyan-400">Java Fullstack Developer</p>
+            <p className="text-base uppercase tracking-[0.2em] font-semibold text-cyan-400">Java Fullstack Developer</p>
             <h1 className="text-5xl font-bold leading-tight tracking-tight text-white md:text-6xl">
               Hello, I am Yash Kolapkar
             </h1>
-          </div>
+          </div>  
 
           <p className="max-w-3xl text-base leading-8 text-slate-300 md:text-lg">
             Java Developer with more than 4 years of experience delivering robust backend solutions using Spring Boot.
-Proven ability to work across complex systems in Agile and DevOps environments
+            Proven ability to work across complex systems in Agile and DevOps environments
           </p>
 
 
