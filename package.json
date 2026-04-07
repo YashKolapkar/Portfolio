@@ -3,14 +3,14 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://yashkolapkar.github.io/portfolio",
+  "homepage": "https://yashkolapkar.github.io/Portfolio",
   "scripts": {
     "dev": "vite",
-    "build": "vite build",
+    "build": "npx vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-    "predeploy":"npm run build",
-    "deploy":"CI=true npx gh-pages -d dist -b main -m 'Deploy portfolio'"
+    "predeploy": "npm run build",
+    "deploy": "npx gh-pages -d dist -b gh-pages -m \"Update portfolio\""
   },
   "dependencies": {
     "@remixicon/react": "^4.9.0",
