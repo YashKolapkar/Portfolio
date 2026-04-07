@@ -1,4 +1,4 @@
-import { useInView } from 'react-intersection-observer';
+import { useInView } from 'react-intersection-observer'; // dummy commit
 import Experience from "./components/experience/Experience";
 import Home from "./components/home/Home";
 import Navbar from "./components/navbar/navbar";
