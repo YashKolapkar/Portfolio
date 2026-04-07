@@ -3,6 +3,7 @@ name: Deploy to GitHub Pages
 on:
   push:
     branches: [main]
+  workflow_dispatch:
 
 jobs:
   deploy:
@@ -26,12 +27,6 @@ jobs:
         run: npm run build
         env:
           CI: false
-
-      - name: Show dist contents
-        run: ls -la dist/
-
-      - name: Show dist/index.html
-        run: cat dist/index.html
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
