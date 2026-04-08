@@ -24,7 +24,7 @@ const Home = () => {
           <div className="grid gap-4 sm:grid-cols-2 lg:max-w-xl">
             <div className="rounded-3xl bg-white/5 px-5 py-4 text-slate-200">
               <p className="text-sm uppercase tracking-[0.2em] text-cyan-300">Experience</p>
-              <p className="mt-2 text-lg font-semibold">4+ years building web apps</p>
+              <p className="mt-2 text-lg font-semibold">4+ years delivering enterprise-grade full stack solutions</p>
             </div>
             <div className="rounded-3xl bg-white/5 px-5 py-4 text-slate-200">
               <p className="text-sm uppercase tracking-[0.2em] text-cyan-300">Tools</p>

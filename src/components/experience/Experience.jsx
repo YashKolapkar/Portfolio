@@ -33,25 +33,22 @@ const Experience = () => {
                 title: 'Senior Software Engineer',
                 company: 'Yash Tech',
                 logo: yashTechLogo,
-                duration: 'Jan-2026 to Current',
-                description:
-                  'Led full-stack feature delivery, improved application performance, and mentored frontend teams across React and Tailwind workflows.',
+                duration: 'Jan-2024 to Present',
+                description: 'Working with React.js, building reusable UI components with functional components and hooks. Gained hands-on experience with REST APIs and containerization using Docker and Kubernetes.',
               },
               {
                 title: 'Software Developer',
                 company: 'Amdocs',
                 logo: amdocsLogo,
-                duration: 'Jan-2024 to Dec-2025',
-                description:
-                  'Built reusable UI components, collaborated on REST APIs, and supported a smooth rollout of responsive web experiences.',
+                duration: 'Nov 2022 to Dec 2025',
+                description: 'Built custom GUIs using React for Edge and Chrome. Developed backend services with Java, Spring Boot, and Hibernate. Partnered with AT&T Mobility reducing integration issues by 30%. Created RESTful APIs. Achieved 85% unit test coverage with JUnit and Mockito.',
               },
               {
                 title: 'Associate Software Engineer',
                 company: 'Amdocs',
                 logo: amdocsLogo,
-                duration: 'Jul-2022 to Dec-2023',
-                description:
-                  'Contributed to code reviews, automated test coverage, and helped streamline development processes for faster releases.',
+                duration: 'Aug 2021 to Nov 2022',
+                description: "Supported Globe Telecom's PMX upgrade reducing system errors by 20%. Worked with cross-functional teams on Java-based applications. Wrote system architecture documentation. Resolved bugs and improved performance.",
               },
             ].map((item) => (
               <article
